@@ -1,0 +1,49 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(255, 255, 255);
+  
+    --cyan: hsl(180, 66%, 49%);
+    --dark-violet: hsl(257, 27%, 26%);
+    --very-dark-violet: hsl(260, 8%, 14%);
+  
+    --red: hsl(0, 87%, 67%);
+    --gray: hsl(0, 0%, 75%);
+    --gray-violet: hsl(257, 7%, 63%);
+    --dark-blue: hsl(255, 11%, 22%);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+  
+  body,
+  input,
+  textarea,
+  select,
+  button {
+    font: 500 1.125rem 'Poppins', sans-serif;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 1080px) {
+    html {
+      font-size: 93.75%;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    html {
+      font-size: 87.5%;
+    }
+  }
